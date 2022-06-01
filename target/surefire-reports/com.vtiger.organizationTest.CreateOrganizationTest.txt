@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vtiger.organizationTest.CreateOrganizationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 2.954 s <<< FAILURE! - in com.vtiger.organizationTest.CreateOrganizationTest
+beforeclass1Test(com.vtiger.organizationTest.CreateOrganizationTest)  Time elapsed: 2.801 s  <<< FAILURE!
+java.lang.NullPointerException
+
+aftersuite1Test(com.vtiger.organizationTest.CreateOrganizationTest)  Time elapsed: 2.867 s  <<< FAILURE!
+java.lang.NullPointerException
+

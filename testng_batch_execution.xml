@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite">
+  <test thread-count="2" name="Test">
+    <classes>
+      
+     
+      
+      <class name="com.vtiger.DocumentsTest.CreateDocumentTest"/>
+      <class name="com.vtiger.campagnTest.CreateCampaignTest"/>
+      <class name="com.vitiger.contactsTest.CreateContactsWithOrganizationsTest"/>
+      
+      <class name="com.vtiger.productsTest.CreateProductsTest"/>
+      <class name="com.vitiger.contactsTest.CreateContactsTest"/>
+      <class name="com.vitiger.organizationTest.CreateOrganizationwithIndustryTest"/>
+     
+      <class name="com.vitiger.organizationTest.CreateOrganizationTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

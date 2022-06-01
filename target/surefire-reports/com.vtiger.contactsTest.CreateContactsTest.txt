@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vtiger.contactsTest.CreateContactsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 3.179 s <<< FAILURE! - in com.vtiger.contactsTest.CreateContactsTest
+beforeclass1Test(com.vtiger.contactsTest.CreateContactsTest)  Time elapsed: 3.014 s  <<< FAILURE!
+java.lang.NullPointerException
+
+aftersuite1Test(com.vtiger.contactsTest.CreateContactsTest)  Time elapsed: 3.089 s  <<< FAILURE!
+java.lang.NullPointerException
+

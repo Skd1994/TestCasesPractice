@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="sanity" />
+<exclude name="regression"/>
+<include name="baseclass"/>
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vtiger.organizationTest.CreateOrganizationTest"/>
+      <class name="com.vtiger.contactsTest.CreateContactsTest"/>
+      
+      <class name="com.Organization5TESTCASESTest.SearchOrgByAlphabet"/>
+      <class name="com.Organization5TESTCASESTest.FilterOrgByAll"/>
+      <class name="com.Organization5TESTCASESTest.CreateOrgWithoutBillingAddress"/>
+      <class name="com.Organization5TESTCASESTest.FilterOrgByNewThisWeek"/>
+      <class name="com.Organization5TESTCASESTest.FilterOrgByProspectAccounts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

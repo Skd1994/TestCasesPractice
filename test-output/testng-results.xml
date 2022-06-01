@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-27T00:19:33 IST" name="Default suite" finished-at="2022-05-27T00:19:57 IST" duration-ms="23819">
+    <groups>
+      <group name="sanity">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" name="createOrganizationTest" class="com.vtiger.organizationTest.CreateOrganizationTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-27T00:19:33 IST" name="Default test" finished-at="2022-05-27T00:19:57 IST" duration-ms="23819">
+      <class name="com.vtiger.organizationTest.CreateOrganizationTest">
+        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:32 IST" name="beforesuite1Test" finished-at="2022-05-27T00:19:33 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite1Test -->
+        <test-method is-config="true" signature="beforeclass1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:33 IST" name="beforeclass1Test" finished-at="2022-05-27T00:19:38 IST" duration-ms="4936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass1Test -->
+        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:38 IST" name="beforeMethod1Test" finished-at="2022-05-27T00:19:42 IST" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1Test -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:43 IST" name="createOrganizationTest" finished-at="2022-05-27T00:19:55 IST" duration-ms="12477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="afterMethod1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:55 IST" name="afterMethod1Test" finished-at="2022-05-27T00:19:57 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1Test -->
+        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:57 IST" name="afterClass1Test" finished-at="2022-05-27T00:19:57 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1Test -->
+        <test-method is-config="true" signature="aftersuite1Test()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationTest@4e904fd5]" started-at="2022-05-27T00:19:57 IST" name="aftersuite1Test" finished-at="2022-05-27T00:19:58 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite1Test -->
+      </class> <!-- com.vtiger.organizationTest.CreateOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
