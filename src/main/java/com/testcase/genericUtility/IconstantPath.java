@@ -6,11 +6,9 @@ package com.testcase.genericUtility;
  */
 
 public interface IconstantPath {
-	String PROPERTYFILEPATH ="./src/test/resources/commonData.properties";
-	String RMGYANTRAPROPERTYFILEPATH ="./src/test/resources/rmgyantra.properties";
+	String PROPERTYFILEPATH ="./src/test/resources/TestCase.properties";
 	String EXCELFILEPATH ="./src/test/resources/TESTDATA.xlsx";
-	String DATABASEURL ="jdbc:mysql://localhost:3306/";
-	String RMGYANTRA_EXCELFILE_PATH ="./src/test/resources/rmgyantra.xlsx";
+	
 
 
 }

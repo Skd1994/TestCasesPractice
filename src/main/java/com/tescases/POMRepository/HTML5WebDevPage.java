@@ -5,21 +5,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.sdet34L1.genericUtility.WebDriverUtility;
-
-public class HomePage {
-	@FindBy(xpath = "//a[text()='Shop']")
-	private WebElement clickonShopTxt ;
+public class HTML5WebDevPage {
+	@FindBy(xpath = "//h3[text()='HTML5 WebApp Develpment']")
+	private WebElement clickonHTML5WebAppDevTxt;
 	
-	public HomePage(WebDriver driver)
+	public HTML5WebDevPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickShop(WebDriver driver)
+	
+	public void clickonHTML5WebAppDev(WebDriver driver)
 	{
 		
-		clickonShopTxt.click();
+		clickonHTML5WebAppDevTxt.click();
 	}
 
 }
