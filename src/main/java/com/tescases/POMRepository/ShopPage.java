@@ -6,7 +6,7 @@
 	import org.openqa.selenium.support.FindBy;
 	import org.openqa.selenium.support.PageFactory;
 
-	import com.sdet34L1.genericUtility.WebDriverUtility;
+	
 
 	public class ShopPage {
 		
@@ -25,6 +25,11 @@
 		{
 			
 			clickonHomeTxt.click();
+		}
+		
+		public WebElement getHomeLink(WebDriver driver)
+		{
+			return clickonHomeTxt;
 		}
 
 

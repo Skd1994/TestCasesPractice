@@ -14,12 +14,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
-import com.sdet34L1.genericUtility.ExcelUtility;
-import com.sdet34L1.genericUtility.FileUtility;
-import com.sdet34L1.genericUtility.IconstantPath;
-import com.sdet34L1.genericUtility.JavaUtility;
-import com.sdet34L1.genericUtility.WebDriverUtility;
+
 import com.tescases.POMRepository.AddtoBasketPage;
+import com.tescases.POMRepository.CheckoutPage;
 import com.tescases.POMRepository.HTML5WebDevPage;
 import com.tescases.POMRepository.ShopPage;
 import com.tescases.POMRepository.ProceedtoCheckoutPage;
@@ -43,6 +40,7 @@ public class BaseClass {
 	public HomePage homePage;
 	public ThinkinginHTMLPage thinkinginHTMLPage;
 	public ViewBasketPage viewBasketPage;
+	public CheckoutPage checkoutPage;
 	
 	public JavaUtility jutil;
 	public static WebDriver staticdriver;
@@ -59,14 +57,14 @@ public class BaseClass {
 	{
 		//open property file
 		try {
-			FileUtility.openPropertyFile(IconstantPath.PROPERTYFILEPATH);
+			fileutility.openPropertyFile(IconstantPath.PROPERTYFILEPATH1);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		//open excel file
 		try {
-			ExcelUtility.openExcel(IconstantPath.EXCELFILEPATH);
+			excelutility.openExcel(IconstantPath.EXCELFILEPATH);
 		} catch (EncryptedDocumentException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -89,13 +87,13 @@ public class BaseClass {
 		
 		//create instance for all generic utility
 		jutil = new JavaUtility();
-		String url = FileUtility.getDataFromPropertyFile("url");
-		String timeout = FileUtility.getDataFromPropertyFile("timeout");
-		browser = FileUtility.getDataFromPropertyFile("browser");
+		String url = fileutility.getDataFromPropertyFile("url");
+		String timeout = fileutility.getDataFromPropertyFile("timeout");
+		browser = fileutility.getDataFromPropertyFile("browser");
 		longtimeout = jutil.stringToLong(timeout);
 		
 		//To fetch from cmd prompt (command :- mvn test -DBROWSER=chrome -DUSERNAME=admin -DPASSWORD=root)
-		browser = System.getProperty("BROWSER");
+	//	browser = System.getProperty("BROWSER");
 		
         //launch browser instance
 		switch(browser)
@@ -133,6 +131,7 @@ public class BaseClass {
 		homePage = new HomePage(driver);
 		thinkinginHTMLPage = new ThinkinginHTMLPage(driver);
 		viewBasketPage = new ViewBasketPage(driver);
+		checkoutPage = new CheckoutPage(driver);
 		
 		
 		
@@ -176,7 +175,7 @@ public class BaseClass {
 	public void aftersuite1Test()
 	{
 		
-		ExcelUtility.closeExcel();
+		//ExcelUtility.closeExcel();
 		//close database connection code outside try/catch block
 	}
 

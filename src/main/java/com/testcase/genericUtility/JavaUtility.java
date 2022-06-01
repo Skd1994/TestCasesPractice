@@ -6,7 +6,7 @@ import java.util.Random;
 
 import org.openqa.selenium.WebElement;
 
-import com.sdet34L1.genericUtility.ExcelUtility;
+
 /**
  * This class contains only java specific reusable methods
  * @author Admin
@@ -47,16 +47,16 @@ public class JavaUtility {
 			System.out.println("TC Pass");
 		}
 	}
-	public void assertionThroughIfCondition(String sessionID, String value, int rowNumber , int cellNumber)
-	{
-		if(sessionID.contains("Home"))
-		{
-			ExcelUtility.createCell_Setcell("SheetName", rowNumber, cellNumber, "Create Contact page is displayed");
-			ExcelUtility.createCell_Setcell("Contact Name", 6, 5, "TC pass");
-
-			
-		}
-	}
+//	public void assertionThroughIfCondition(String sessionID, String value, int rowNumber , int cellNumber)
+//	{
+//		if(sessionID.contains("Home"))
+//		{
+//			ExcelUtility.createCell_Setcell("SheetName", rowNumber, cellNumber, "Create Contact page is displayed");
+//			ExcelUtility.createCell_Setcell("Contact Name", 6, 5, "TC pass");
+//
+//			
+//		}
+//	}
 	/**
 	 * This method is used to wait until the element is clickable
 	 * @param element

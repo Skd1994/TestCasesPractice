@@ -6,7 +6,7 @@ package com.testcase.genericUtility;
  */
 
 public interface IconstantPath {
-	String PROPERTYFILEPATH ="./src/test/resources/TestCase.properties";
+	String PROPERTYFILEPATH1 ="./src/test/resources/TestCase.properties";
 	String EXCELFILEPATH ="./src/test/resources/TESTDATA.xlsx";
 	
 
