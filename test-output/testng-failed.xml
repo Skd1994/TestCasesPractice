@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.organizationTest.CreateOrganizationTest">
+      <class name="RegisterTestcases.AddtoBasket">
         <methods>
-          <include name="beforeMethod1Test"/>
-          <include name="beforesuite1Test"/>
-          <include name="afterClass1Test"/>
-          <include name="beforeclass1Test"/>
           <include name="aftersuite1Test"/>
           <include name="afterMethod1Test"/>
-          <include name="createOrganizationTest"/>
+          <include name="beforesuite1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="addtoBasket"/>
+          <include name="beforeclass1Test"/>
+          <include name="afterClass1Test"/>
         </methods>
-      </class> <!-- com.vtiger.organizationTest.CreateOrganizationTest -->
+      </class> <!-- RegisterTestcases.AddtoBasket -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
